@@ -12,6 +12,7 @@ public enum ExponentialInsulinModelPreset: String {
     case humalogNovologAdult
     case humalogNovologChild
     case fiasp
+    case fiaspJohn
 }
 
 
@@ -25,6 +26,8 @@ extension ExponentialInsulinModelPreset {
             return .minutes(360)
         case .fiasp:
             return .minutes(360)
+        case .fiaspJohn:
+            return .minutes(180)
         }
     }
 
@@ -36,6 +39,8 @@ extension ExponentialInsulinModelPreset {
             return .minutes(65)
         case .fiasp:
             return .minutes(55)
+        case .fiaspJohn:
+            return .minutes(60)
         }
     }
     
@@ -45,6 +50,8 @@ extension ExponentialInsulinModelPreset {
             return .minutes(10)
         case .humalogNovologChild:
             return .minutes(10)
+        case .fiaspJohn:
+            return .minutes(5)
         case .fiasp:
             return .minutes(10)
         }
