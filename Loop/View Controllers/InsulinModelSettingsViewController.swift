@@ -63,7 +63,8 @@ class InsulinModelSettingsViewController: ChartsTableViewController, Identifiabl
         ExponentialInsulinModelPreset.humalogNovologAdult,
         ExponentialInsulinModelPreset.humalogNovologChild,
         ExponentialInsulinModelPreset.fiasp,
-        ExponentialInsulinModelPreset.fiaspJohn
+        ExponentialInsulinModelPreset.fiaspJohn,
+        ExponentialInsulinModelPreset.Afrezza
     ]
 
     private var selectedModelIndex: Int? {

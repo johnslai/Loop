@@ -32,6 +32,8 @@ extension ExponentialInsulinModelPreset {
             return NSLocalizedString("Fiasp", comment: "Title of insulin model preset")
         case .fiaspJohn:
             return NSLocalizedString("Fiasp - John", comment: "Title of insulin model preset")
+        case .Afrezza:
+            return NSLocalizedString("Afrezza", comment: "Title of insulin model preset")
         }
     }
 
@@ -42,9 +44,11 @@ extension ExponentialInsulinModelPreset {
         case .humalogNovologChild:
             return NSLocalizedString("An adjustment to the adult model based on empirical effects in children.", comment: "Subtitle of Rapid-Acting – Children preset")
         case .fiasp:
-            return NSLocalizedString("A model based on the published absorption of Fiasp insulin.", comment: "Subtitle of Fiasp preset")
+            return NSLocalizedString("A model based on the published absorption of Fiasp insulin(10-55-360).", comment: "Subtitle of Fiasp preset")
         case .fiaspJohn:
-            return NSLocalizedString("A custom model based on experiencial results of Fiasp insulin.", comment: "Subtitle of FiaspJohn preset")
+            return NSLocalizedString("A personalized model of Fiasp insulin(20-55-90).", comment: "Subtitle of FiaspJohn preset")
+        case .Afrezza:
+            return NSLocalizedString("A model of Afrezza(10-53-160).", comment: "Subtitle of Afrezza preset, see https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/022472lbl.pdf")
         }
     }
 }
