@@ -34,6 +34,8 @@ extension ExponentialInsulinModelPreset {
             return NSLocalizedString("Fiasp - John", comment: "Title of insulin model preset")
         case .Afrezza:
             return NSLocalizedString("Afrezza", comment: "Title of insulin model preset")
+        case .Lyumjev:
+            return NSLocalizedString("lyumjev", comment: "Title of insulin model preset")
         }
     }
 
@@ -49,6 +51,8 @@ extension ExponentialInsulinModelPreset {
             return NSLocalizedString("A personalized model of Fiasp insulin(20-55-90).", comment: "Subtitle of FiaspJohn preset")
         case .Afrezza:
             return NSLocalizedString("A model of Afrezza(10-53-160).", comment: "Subtitle of Afrezza preset, see https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/022472lbl.pdf")
+        case .Lyumjev:
+            return NSLocalizedString("A model of Lyumjev(5-62-300).", comment: "Subtitle of Lyumjev preset")
         }
     }
 }
